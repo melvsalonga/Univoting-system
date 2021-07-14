@@ -69,6 +69,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 #### this is the default account for the admin panel:
 
 Email: admin@admin.com
+
 Pass : password
 
 ## Adding Candidate
