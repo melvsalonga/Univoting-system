@@ -3,7 +3,7 @@
 <!-- Font Awesome icons (free version)-->
 <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
-        <footer class="footer py-4">
+        <footer class="footer py-4 position-static">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; UniVote 2021</div>

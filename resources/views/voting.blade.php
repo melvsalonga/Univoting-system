@@ -9,13 +9,14 @@
         <fieldset class="form-group text-center">
             <div class="row">
             <div class="col-sm-10" style="margin:0 auto">
-
+            <div class="card-body">
             <h3 class="mt-3">Candidates to vote for:</h3>
                 
                 @foreach($candidates as $candidate) 
                 <div class="form-check mb-5 mt-3">
+                <div ><img class="rounded-circle align-center" src="/storage/images/{{$candidate->c_img}}" alt="img" style="width:3.2em; height:3.2em;"></div>
                     <input class="form-check-input" type="radio" name="candidateId" id="exampleRadios1" value="{{$candidate->id}}" style="float:none">
-                    <label class="form-check-label" for="exampleRadios1">
+                    <label class="form-check-label font-weight-bold" for="exampleRadios1">
                         {{$candidate->name}}
                     </label>
                 </div>

@@ -10,6 +10,7 @@
 
         <div class="card mb-3 mt-3">
             <div class="card-body">
+            <div ><img class="rounded-circle align-center" src="/storage/images/{{$candidate->c_img}}" alt="img" style="width:6.2em; height:6.2em;"></div>
                 <h4>Name : {{$candidate->name}}</h4>
                     <!-- Button trigger modal -->
                     <br><button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
@@ -36,7 +37,7 @@
                         </div>
 
 
-                <h3 class="text-center"><span>{{($candidate->votes/100) * 100}} Voted</span></h3>
+                <h3 class="text-center mt-3"><span>{{($candidate->votes/100) * 100}} Voted</span></h3>
 
                 <div class="progress mt-5">
                     <div class="progress-bar bg-success" role="progressbar" style="width: {{($candidate->votes/100) * 100}}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{$candidate->votes}}</div>

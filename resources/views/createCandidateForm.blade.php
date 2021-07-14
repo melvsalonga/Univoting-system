@@ -4,12 +4,12 @@
 
 <div class="container mt-5">
     <h2 class="text-center">Insert New Candidate/Name</h2>
-    <form action="{{route('createCandidate')}}" method="post">
+    <form action="{{route('createCandidate')}}" method="POST" enctype="multipart/form-data">
         {{ csrf_field() }}
 
         <div class="form-group">
         <label class="form-label" for="customFile">Profile Img</label>
-        <input type="file" name="candidateImg" class="form-control"  />
+        <input type="file" name="Img" class="form-control"  />
         </div>
         
         <div class="form-group">

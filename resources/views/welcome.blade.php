@@ -32,7 +32,7 @@
                         <li class="nav-item"><a class="nav-link" href="#services" data-aos="fade-left">Info</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about" data-aos="fade-left">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact" data-aos="fade-left">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{route('home')}}" data-aos="fade-left">Vote Now</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('register')}}" data-aos="fade-left">Vote Now</a></li>
                         
                         <li class="nav-item">
                         @if (Route::has('login'))

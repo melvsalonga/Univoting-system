@@ -12,8 +12,14 @@ class CandidatesController extends Controller
 
 
     public function  createCandidate(Request $request){
+       
+        if ($request->hasFile('Img')) {
 
-        $candidateImg  = $request->input('candidateImg');
+            $candidateImg =time() . '_' .$request->Img->getClientOriginalName();
+            
+            $request->Img->storeAs('images', $candidateImg, 'public');
+    }
+
         $candidateName = $request->input('candidateName');
         $candidateInfo = $request->input('candidateInfo');
 
@@ -25,12 +31,13 @@ class CandidatesController extends Controller
             ['name'=>$candidateName, 'votes'=>0, 'information'=>$candidateInfo, 'c_img'=>$candidateImg]
         );
 
+
+
         return redirect('/createCandidateForm');    
-
-
-
-        
     }
+
+
+
 
     public function  createCandidateForm(){
 
