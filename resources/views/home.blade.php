@@ -10,7 +10,7 @@
 
         <div class="card mb-3 mt-3">
             <div class="card-body">
-            <div ><img class="rounded-circle align-center" src="/storage/images/{{$candidate->c_img}}" alt="img" style="width:6.2em; height:6.2em;"></div>
+            <div class="text-center"><img class="rounded-circle align-center" src="/storage/images/{{$candidate->c_img}}" alt="img" style="width:6.2em; height:6.2em;"></div>
                 <h4>Name : {{$candidate->name}}</h4>
                     <!-- Button trigger modal -->
                     <br><button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
