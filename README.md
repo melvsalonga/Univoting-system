@@ -1,3 +1,9 @@
+## UniVote - Universal Voting System
+### Your Vote, Your Voice
+### LET'S YOUR VOICE BE HEARD
+A Simple Voting System which can be use by all.
+(Scroll Down for Installation Instruction.)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -21,42 +27,51 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* User Authentication (Jetstream + Livewire)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* User upload profile img, change password, log out on all session
 
-## Laravel Sponsors
+* Two Factor Authentication (Scan given Qr code using any authenthicator like Google authenthicator)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+* Customizable Admin panel (Using Voyager - The missing admin panel for Laravel)
 
-### Premium Partners
+* Account Roles (Voter, Admin)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+* Ajax search and pagination (Admin Panel)
 
-## Contributing
+## Instruction
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* git clone https://github.com/Focilia/Univoting-system.git
 
-## Code of Conduct
+* composer install or composer update
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* make a database name voting_system_test or a name of your choice
 
-## Security Vulnerabilities
+* modify the .env file with the name of database you created.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+* or you can copy the .env.example and paste to .env
 
-## License
+* php artisan key:generate
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* php artisan migrate
+
+* php artisan serve
+
+* then you can access the site with this link http://localhost:8000/
+
+## Admin Panel
+
+* you can access the admin panel with this link http://localhost:8000/admin
+
+#### this is the default account for the admin panel:
+
+Email: admin@admin.com
+Pass : password
+
+## Adding Candidate
+
+* you can access the add candidate with this link http://localhost:8000/createCandidateForm
+
+#### Note: you need to be a admin to access this link

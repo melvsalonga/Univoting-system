@@ -1,5 +1,5 @@
 <?php
-
+//  Here are the conrtroller nandito lahat ng functionalities ng backend eto nag hahandle
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;

@@ -1,3 +1,5 @@
+<!-- Etoo ang home page front end -->
+
 @extends("layouts.main")
 
 @section("content")
