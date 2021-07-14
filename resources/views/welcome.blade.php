@@ -17,8 +17,36 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
 
+        <!-- style for loading animation -->
+<!-- <style>
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+  background-color: #bababa;
+  z-index: 99;
+}
+
+#loading-image {
+  z-index: 100;
+}
+
+</style> -->
     </head>
     <body id="page-top" style="background-color: #e6e6fa;">
+
+    <!-- loading animation until the page load (Masayadong mabilis ang loading sa local host kaya di bagay) -->
+
+    <!-- <div id="loading">
+        <img id="loading-image" src="/assets/img/Preloader_6.gif" alt="Loading..." />
+    </div>   -->
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container" data-aos="fade-right">
@@ -185,7 +213,7 @@
                 </div>
             </div>
         </footer>
-
+ 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -201,5 +229,16 @@
              AOS.init();
         </script>
         
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+<!-- loading animation until the page load (Masayadong mabilis ang loading sa local host kaya di bagay) --> 
+        <!-- <script>
+        $(window).load(function() {
+            $('#loading').hide();
+        });
+        </script> -->
+
     </body>
 </html>

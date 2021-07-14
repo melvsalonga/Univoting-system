@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', [CandidatesController::class, 'home'])->name("home");
+Route::get('/home', [CandidatesController::class, 'home'])->name("home")->middleware('auth');
 
 Route::get('/', function () {
     return view('welcome');
