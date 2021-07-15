@@ -30,7 +30,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Features
 
-* User Authentication (Jetstream + Livewire)
+* User Authentication (Jetstream)
 
 * User upload profile img, change password, log out on all session
 
