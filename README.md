@@ -1,6 +1,6 @@
 ## UniVote - Universal Voting System
 
-<div align="center"><img src="https://ibb.co/6rfZD2g" width="400"></div>
+<div align="center"><img src="https://i.ibb.co/Qp1cYZr/UNIVOTE-LOGO.png" alt="UNIVOTE-LOGO" width="400"></div>
 
 ### Your Vote, Your Voice
 ### LET'S YOUR VOICE BE HEARD
