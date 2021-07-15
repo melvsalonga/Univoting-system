@@ -2,7 +2,7 @@
 
 @section("content")
 
-<div class="container">
+<div class="container" style="min-height:70vh;">
 
     <form action="{{route('castYourVote')}}" method="post">
          {{ csrf_field() }}
