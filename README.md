@@ -1,4 +1,7 @@
 ## UniVote - Universal Voting System
+
+<div align="center"><img src="https://ibb.co/6rfZD2g" width="400"></div>
+
 ### Your Vote, Your Voice
 ### LET'S YOUR VOICE BE HEARD
 A Simple Voting System which can be use by all.
