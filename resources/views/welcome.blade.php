@@ -81,7 +81,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading" data-aos="fade-right">Your Vote, Your Voice</div>
-                <div class="masthead-heading text-uppercase" data-aos="fade-right">Let's Your Voice Be Heard</div>
+                <div class="masthead-heading text-uppercase" data-aos="fade-right">Let Your Voice Be Heard</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="{{route('register')}}" data-aos="fade-left">Vote Now</a>
             </div>
         </header>
@@ -89,7 +89,7 @@
         <section class="page-section" id="services">
             <div class="container" >
                 <div class="text-center" >
-                    <h2 class="section-heading text-uppercase">How It's Work</h2>
+                    <h2 class="section-heading text-uppercase">How It Works</h2>
                 </div>
                 <div class="row text-center"data-aos="fade-down">
                     <div class="col-md-4" >

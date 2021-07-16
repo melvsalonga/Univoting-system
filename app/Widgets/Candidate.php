@@ -32,7 +32,7 @@ class Candidate extends BaseDimmer
                 'text' => 'Candidates',
                 'link' => route('voyager.candidates.index'),
             ],
-            'image' => '/candidate.png',
+            'image' => '/candidate.jpg',
         ]));
     }
 
