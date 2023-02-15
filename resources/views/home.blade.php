@@ -1,4 +1,4 @@
-<!-- Etoo ang home page front end -->
+<!-- Eto ang home page front end -->
 
 @extends("layouts.main")
 
